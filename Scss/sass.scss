@@ -11,6 +11,7 @@
 
 .hero{
     background-image: url('../assets/main_img.png');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 970px;
     width: 100%;
@@ -126,4 +127,59 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 160%;
+    margin-top: 50px;
+    display: block;
+}
+
+.hero-footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    // gap: 20px;
+    border: 1px rgba(235, 235, 240, 0.2) solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-footer-elements{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 168px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px rgba(235, 235, 240, 0.2) solid;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.hero-footer-elements i{
+    color: $main-color;
+    font-size: 36px;
+}
+
+.hero-footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.hero-about-company{
+    margin-top: 50px;
+}
+
+.hero-btn{
+    width: 313px;
+    height: 76px;
+    background-color: rgba(92, 142, 229, 1);
+    border: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    color: white;
 }
