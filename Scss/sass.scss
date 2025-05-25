@@ -5,7 +5,7 @@
 
 .container{
     width: 90%;
-    padding: 0 100px;
+    padding: 0 75px;
     margin: 0 auto;
 }
 
@@ -502,7 +502,7 @@
 .partner-text{
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 120%;
     letter-spacing: 0%;
 }
@@ -533,7 +533,6 @@
 
 .partner-item{
     display: flex;
-    gap: 50px;
 }
 
 .partner-elements{
@@ -562,4 +561,254 @@
 .partner-burger-icon img{
     width: 70px;
     height: 70px;
+}
+
+
+.blog{
+    margin-top: 100px;
+}
+
+.blog-span{
+    content: "";
+    display: flex;
+    background-color: $main-color;
+    width: 150px;
+    height: 2px;
+}
+
+.blog-text{
+    font-family: $main-font;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.blog-left-side{
+    background-image: url('../assets/blog-left-side.png');
+    width: 600px;
+    height: 300px;
+    padding: 80px 10px 5px 10px;
+}
+
+.blog-right-side{
+    background-image: url('../assets/blog-right-side.png');
+    width: 600px;
+    height: 300px;
+    padding: 113px 10px 5px 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.blog-sides{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.blog-right-side::before{
+    content: "";
+    background-color: rgba(41, 45, 51, 0.6);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.blog-left-text{
+    font-family: $subtext-font, sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.blog-left-subtext{
+    font-family: $subtext-font, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.blog-right-text{
+    font-family: $subtext-font, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.blog-right-subtext{
+    font-family: $subtext-font, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.blog-footer-link::before{
+    content: "";
+    background-color: $main-color;
+    width: 40px;
+    height: 1px;
+    display: flex;
+}
+
+.blog-footer-elements{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-footer-link{
+    color: $main-color;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.blog-footer-btn{
+    width: 160px;
+    height: 60px;
+    background-color: $main-color;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.blog-footer-btn i{
+    color: white;
+    font-size: 30px;
+}
+
+.offer{
+    background-color: rgba(240, 242, 245, 1);
+    margin-top: 100px;
+    position: relative;
+    height: 452px;
+    display: flex;
+}
+
+.offer-spray-img{
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+
+.offer-container{
+    width: 700px;
+    padding: 0 50%;
+}
+
+.offer-form{
+    margin-top: 100px;
+    width: 700px;
+}
+
+.offer-text{
+    font-family: $main-font, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.offer-subtext{
+    font-family: $subtext-font,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: rgba(130, 138, 153, 1);
+}
+
+.offer-input-text{
+    margin-top: 20px;
+    width: 300px;
+    height: 46px;
+    border: 1px rgba(228, 228, 235, 1) solid;
+    background-color: rgba(240, 242, 245, 1);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.offer-input-phone{
+    width: 300px;
+    height: 46px;
+    border: 1px rgba(228, 228, 235, 1) solid;
+    background-color: rgba(240, 242, 245, 1);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.offer-submit-btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: $main-color;
+    color: white;
+    cursor: pointer;
+}
+
+.offer-verify-text{
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    font-family: $subtext-font,sans-serif;
+    color: rgba(130, 138, 153, 1);
+    
+}
+
+.offer-verify{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-ul{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-phone-contact{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footer-addres{
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.footer-list-item i{
+    color: $main-color;
+}
+
+.footer-main-ul{
+    list-style: none;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
 }
