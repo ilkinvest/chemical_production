@@ -958,6 +958,14 @@ body {
   gap: 20px;
 }
 
+.footer {
+  margin-top: 100px;
+}
+
+.footer-hr {
+  margin: 50px 0 0 0;
+}
+
 .footer-ul {
   margin-top: 100px;
   display: -webkit-box;
@@ -1001,5 +1009,49 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.footer-main-list-item {
+  margin: 10px 0 0 10px;
+  color: #828a99;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.footer-main-info2 {
+  margin-top: 35px;
+}
+
+.footer-main-col1, .footer-main-col2 {
+  font-family: "Noto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  line-height: 160%;
+  color: black;
+}
+
+.footer-last {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #828a99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-last-info {
+  gap: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=sass.css.map */
