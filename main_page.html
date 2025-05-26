@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="hero">
+    <section id="hero" class="hero">
         <nav class="hero-navbar">
             <div class="hero-navigation-logo"><img src="./assets/logo.png" alt="" class="hero-logo"></div>
             <div class="hero-navigation">
@@ -23,14 +23,9 @@
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </div> 
-            <!--This is burger menu-->
-            <div class="hero-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <div class="burger-menu"></div>
             <div class="hero-navigation">
-                <i class="fa-solid fa-phone"></i>
+                <i id="hero-phone" class="fa-solid fa-phone"></i>
                 <a href="#" class="hero-call">+7 (499) 686-10-14</a>
                 <h5 class="hero-navigation-btn"><a href="#">Получить консультацию</a></h5>
             </div>
@@ -48,7 +43,7 @@
                         напрямую зависит от анализа существующих паттернов поведения.
                     </span>
                 </div>
-                <div class="hero-about-company">
+                <div id="hero-about-company" class="hero-about-company">
                     <button class="hero-btn" type="button"><a href="#">Подробнее о компании</a></button>
                 </div>
                 <div class="hero-footer">
