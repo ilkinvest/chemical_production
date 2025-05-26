@@ -7,6 +7,64 @@ body {
   margin: 0;
 }
 
+@media (max-width: 1000px) {
+  .hero-navigation li {
+    display: none;
+  }
+}
+
+@media (max-width: 590px) {
+  .hero-call, .fa-solid {
+    display: none;
+  }
+}
+
+@media (max-width: 590px) {
+  .hero-navigation {
+    width: 160px;
+  }
+  #hero-phone {
+    display: block;
+    position: absolute;
+    color: white;
+  }
+  .hero-navigation-btn a {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero-main div {
+    margin: 0;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-main {
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 1300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-about-company {
+    margin-top: 50px;
+  }
+}
+
 .container {
   width: 90%;
   padding: 0 75px;
@@ -129,6 +187,7 @@ body {
 }
 
 .hero-text-hr {
+  position: absolute;
   width: 150px;
   height: 2px;
   background-color: #5c8ee5;
