@@ -28,8 +28,7 @@
 
 @media(max-width: 760px){
     .hero-main div{
-        margin: 0;
-        padding: 0;
+        margin: auto;
         justify-content: center;
     }
 }
@@ -42,8 +41,14 @@
 }
 
 @media(max-width: 768px){
+    .hero-footer div:nth-child(n+3){
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
     #hero{
-        height: 1300px;
+        height: 1450px;
         justify-content: center;
     }
 }
@@ -51,5 +56,38 @@
 @media(max-width: 768px){
     #hero-about-company{
         margin-top: 50px;
+    }
+}
+
+@media(max-width: 768px){
+    .hero-footer{
+        bottom: 10px;
+        left: 20px;
+        padding: 0;
+
+    }
+}
+
+@media(max-width: 768px){
+    .container-info div:nth-child(n+2){
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+    .contract-product1{
+        display: block;
+    }
+}
+
+@media(max-width: 768px){
+    #container-block-2{
+        display: block;
+    }
+}
+
+@media(max-width: 768px){
+    #contract-product-1, #contract-product-2{
+        display: block;
     }
 }
