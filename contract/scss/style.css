@@ -246,4 +246,222 @@ body {
   margin-top: 70px;
   color: #828a99;
 }
+
+.about-products {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.contract-product-seo {
+  margin-top: 100px;
+}
+
+.seo-text {
+  font-family: "Noto", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.seo-subtext {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #828a99;
+}
+
+.contract-product-seo i {
+  color: #5c8ee5;
+  gap: 10px;
+}
+
+.seo-span {
+  color: #5c8ee5;
+  font-size: 14px;
+}
+
+.offer {
+  background-color: #f0f2f5;
+  margin-top: 200px;
+  position: relative;
+  height: 452px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offer-spray-img {
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+}
+
+.offer-container {
+  width: 700px;
+  padding: 0 50%;
+}
+
+.offer-form {
+  margin-top: 100px;
+  width: 700px;
+}
+
+.offer-text {
+  font-family: "Bebas Neue", sans-serif, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.offer-subtext {
+  font-family: "Noto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #828a99;
+}
+
+.offer-input-text {
+  margin-top: 20px;
+  width: 300px;
+  height: 46px;
+  border: 1px #e4e4eb solid;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.offer-input-phone {
+  width: 300px;
+  height: 46px;
+  border: 1px #e4e4eb solid;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.offer-submit-btn {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #5c8ee5;
+  color: white;
+  cursor: pointer;
+}
+
+.offer-verify-text {
+  margin-top: 25px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  font-family: "Noto", sans-serif;
+  color: #828a99;
+}
+
+.offer-verify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-hr {
+  margin: 50px 0 0 0;
+}
+
+.footer-ul {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-phone-contact {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.footer-addres {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+
+.footer-list-item i {
+  color: #5c8ee5;
+}
+
+.footer-main-ul {
+  list-style: none;
+}
+
+.footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-main-list-item {
+  margin: 10px 0 0 10px;
+  color: #828a99;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.footer-main-info2 {
+  margin-top: 35px;
+}
+
+.footer-main-col1, .footer-main-col2 {
+  font-family: "Noto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  line-height: 160%;
+  color: black;
+}
+
+.footer-last {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #828a99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-last-info {
+  gap: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
