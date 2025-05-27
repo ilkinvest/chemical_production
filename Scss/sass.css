@@ -457,6 +457,12 @@ body {
   border: 1px #ebebf0 solid;
 }
 
+.contract-container-subtext {
+  position: absolute;
+  margin-top: 70px;
+  color: #828a99;
+}
+
 .contract-product-block:hover {
   border: 1px #5c8ee5 solid;
   cursor: pointer;

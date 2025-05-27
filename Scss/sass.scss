@@ -303,6 +303,12 @@
     border: 1px rgba(235, 235, 240, 1) solid;
 }
 
+.contract-container-subtext{
+    position: absolute;
+    margin-top: 70px;
+    color: rgba(130, 138, 153, 1);
+}
+
 .contract-product-block:hover{
     border: 1px rgba(92, 142, 229, 1) solid;
     cursor: pointer;
