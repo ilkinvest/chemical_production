@@ -43,7 +43,7 @@
 
 @media(max-width: 768px){
     #hero{
-        height: 1300px;
+        height: 90px;
         justify-content: center;
     }
 }
@@ -51,5 +51,117 @@
 @media(max-width: 768px){
     #hero-about-company{
         margin-top: 50px;
+    }
+}
+
+@media(max-width: 768px){
+    body .about-products{
+        margin-top: 60px;
+    }
+
+    body .contract-product1{
+        display: block;
+    }
+
+    body .contract-product2{
+        display: block;
+    }
+    
+    body .offer-spray-img{
+        display: none;
+    }
+
+    body .offer-container{
+        padding: 0;
+        
+        .offer-form{
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+
+    body .offer-verify{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body .offer{
+        height: 540px;
+    }
+
+    .offer-form input{
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .offer-form button{
+        width: 400px;
+    }
+
+    
+    body .footer-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body .footer-main{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: start;
+    }
+
+    .footer-main ul{
+        padding: 0;
+        margin: 0;
+        align-items: start;
+    }
+
+    body .footer-main-info2{
+        margin: 5px 0;
+    }
+
+    body .footer-last{
+        display: block;
+    }
+
+    body .footer-last-info{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+}
+
+@media(max-width: 768px){
+    body .mark-sections{
+        display: block;
+        width: 400px;
+    }
+
+    body .mark-left-side{
+        display: flex;
+        width: 345px;
+        height: 380px;
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    
+    body .mark-right-side{
+        display: flex;
+        width: 345px;
+        height: 380px;
+        flex-direction: column;
+        font-size: 14px;
     }
 }
