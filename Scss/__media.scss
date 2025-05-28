@@ -12,7 +12,7 @@
 
 @media(max-width: 590px){
     .hero-navigation{
-        width: 160px;
+        width: 120px;
     }
 
     #hero-phone{
@@ -31,6 +31,10 @@
         margin: auto;
         justify-content: center;
     }
+
+    #hero-main-text{
+        font-size: 38px;
+    }
 }
 
 @media(max-width: 768px){
@@ -48,7 +52,7 @@
 
 @media(max-width: 768px){
     #hero{
-        height: 1450px;
+        height: 1150px;
         justify-content: center;
     }
 }
@@ -62,7 +66,7 @@
 @media(max-width: 768px){
     .hero-footer{
         bottom: 10px;
-        left: 20px;
+        left: 50px;
         padding: 0;
 
     }
@@ -77,17 +81,177 @@
 @media(max-width: 768px){
     .contract-product1{
         display: block;
+        justify-items: anchor-center;
     }
 }
 
 @media(max-width: 768px){
     #container-block-2{
         display: block;
+        justify-items: anchor-center;
     }
 }
 
 @media(max-width: 768px){
     #contract-product-1, #contract-product-2{
         display: block;
+        justify-items: anchor-center;
+    }
+}
+
+@media(max-width: 768px){
+    #mark{
+        margin-top: 1020px;
+    }
+}
+
+@media(max-width: 768px){
+    #mark-sections{
+        display: block;
+        width: 400px;
+    }
+
+    #mark-left-side{
+        display: flex;
+        width: 345px;
+        height: 380px;
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    #mark-right-side{
+        display: flex;
+        width: 345px;
+        height: 395px;
+        flex-direction: column;
+        font-size: 14px;
+        // margin-top: 50PX;
+    }
+
+    #mission-block{
+        display: block;
+    }
+
+    #mission-person{
+        width: 475px;
+    }
+
+    .mission-left-side{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mission-right-side{
+        align-items: center;
+        width: 90%;
+        padding: 0 75px;
+    }
+}
+
+@media(max-width: 768px){
+    #partner-elements{
+        display: block;
+    }
+
+    #partner-item{
+        display: block;
+    }
+
+    .partner-ul-right{
+        padding: 0;
+    }
+
+    .partner-burger-icon div:nth-child(n+3){
+        display: none;
+    }
+
+    .blog-left-side{
+        display: none;
+    }
+
+    #blog-right-side{
+        padding: 0;
+        display: block;
+    }
+
+    .offer-spray-img{
+        display: none;
+    }
+
+    #offer-container{
+        padding: 0;
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    #offer-verify{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 10px 5%;
+    }
+
+    #offer-submit-btn{
+        width: 400px;
+    }
+
+    .offer-verify-text{
+        display: block;
+    }
+
+    #offer-form{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    #offer-form input {
+        margin: 10px 5%;
+        width: 400px;
+    }
+}
+
+@media(max-width: 768px){
+       body .offer{
+        height: 574px;
+        margin-top: 100px;
+    }
+
+    body .footer-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body .footer-main{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: start;
+    }
+
+    .footer-main ul{
+        padding: 0;
+        margin: 0;
+        align-items: start;
+    }
+
+    body .footer-main-info2{
+        margin: 5px 0;
+    }
+
+    body .footer-last{
+        display: block;
+    }
+
+    body .footer-last-info{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
     }
 }
