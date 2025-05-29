@@ -13,8 +13,8 @@ body {
   }
 }
 
-@media (max-width: 590px) {
-  .hero-call, .fa-solid {
+@media (max-width: 1000px) {
+  div .hero-call, .fa-solid {
     display: none;
   }
 }

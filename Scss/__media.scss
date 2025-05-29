@@ -1,12 +1,25 @@
 @media(max-width: 1000px){
-    .hero-navigation li{
+    .hero-nav-links li{
         display: none;
     }
 }
 
-@media(max-width: 590px){
-    .hero-call, .fa-solid{
+@media(max-width: 1000px){
+    div .hero-call, .fa-solid{
         display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    .hero-nav-links{
+        display: none;
+    }
+    body .burger-menu{
+        display: block;
+    }
+
+    .burger-input:checked ~ .hero-nav-links-active {
+        display: flex;
     }
 }
 
