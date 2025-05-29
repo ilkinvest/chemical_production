@@ -17,10 +17,6 @@
     body .burger-menu{
         display: block;
     }
-
-    .burger-input:checked ~ .hero-nav-links-active {
-        display: flex;
-    }
 }
 
 @media(max-width: 590px){

@@ -26,11 +26,6 @@ body {
   body .burger-menu {
     display: block;
   }
-  .burger-input:checked ~ .hero-nav-links-active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 @media (max-width: 590px) {
@@ -339,7 +334,9 @@ body {
 }
 
 .burger-menu:active {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .burger-input {
@@ -354,6 +351,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 70px;
+  margin-top: 20px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
 }
 
 .hero-navbar {

@@ -40,7 +40,7 @@
 }
 
 .burger-menu:active{
-    display: none;
+    display: flex;
 }
 
 .burger-input{
@@ -50,6 +50,12 @@
 #checkbox:checked ~ .hero-nav-links-active{
     display: flex;
     flex-direction: column;
+    padding-top: 70px;
+    // background-color: rgba(255, 228, 196, 0.463);
+    // border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
 
 .hero-navbar{

@@ -8,7 +8,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .hero-navigation li {
+  .hero-nav-links li {
     display: none;
   }
 }
@@ -16,6 +16,15 @@ body {
 @media (max-width: 1000px) {
   div .hero-call, .fa-solid {
     display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-nav-links {
+    display: none;
+  }
+  body .burger-menu {
+    display: block;
   }
 }
 
@@ -239,6 +248,39 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.hero-nav-links-active {
+  display: none;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.burger-menu:active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.burger-input {
+  display: none;
+}
+
+#checkbox:checked ~ .hero-nav-links-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 70px;
+  margin-top: 20px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
 }
 
 .hero-navbar a, li {
