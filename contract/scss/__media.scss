@@ -10,6 +10,24 @@
     }
 }
 
+
+@media(max-width: 600px){
+    body .offer-subtext{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 760px){
+    .hero-main div{
+        // margin: auto;
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+        justify-items: right;
+    }
+}
+
+
 @media(max-width: 1000px){
     .hero-nav-links{
         display: none;
@@ -89,6 +107,8 @@
             flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
+            width: 500px;
+            text-align: center;
         }
     }
 
