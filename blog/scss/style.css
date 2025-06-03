@@ -30,7 +30,7 @@ body {
 
 @media (max-width: 590px) {
   .hero-navigation {
-    width: 160px;
+    width: 100px;
   }
   #hero-phone {
     display: block;
@@ -250,7 +250,7 @@ body {
 
 @media (max-width: 600px) {
   body .blog-left-side {
-    width: 400px;
+    width: 280px;
     height: 250px;
   }
   body .blog-left-text {
@@ -263,7 +263,7 @@ body {
 
 @media (max-width: 600px) {
   body .blog-right-side {
-    width: 400px;
+    width: 280px;
     height: 250px;
   }
   body .blog-right-text {
@@ -311,7 +311,7 @@ body {
     width: 450px;
   }
   body .offer-text {
-    left: 20px;
+    text-align: center;
     position: relative;
   }
 }
@@ -321,7 +321,6 @@ body {
     width: 350px;
   }
   body .offer-text {
-    left: 20px;
     position: relative;
   }
   .offer-form input {
@@ -378,8 +377,8 @@ body {
 }
 
 @media (max-width: 360px) {
-  #hero-navig {
-    width: 80px;
+  body .offer-text {
+    width: 20px;
   }
 }
 
