@@ -45,6 +45,7 @@ body {
 @media (max-width: 600px) {
   body .offer-subtext {
     font-size: 12px;
+    width: 200px;
   }
 }
 
@@ -238,6 +239,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 10px;
+    width: 280px;
   }
   #offer-form input {
     margin: 10px 5%;
@@ -305,7 +307,7 @@ body {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 460px) {
   #hero {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -316,7 +318,7 @@ body {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   body .contract-product-block {
     width: 300px;
   }

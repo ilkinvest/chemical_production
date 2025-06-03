@@ -38,6 +38,7 @@
 @media(max-width: 600px){
     body .offer-subtext{
         font-size: 12px;
+        width: 200px;
     }
 }
 
@@ -220,6 +221,7 @@
         display: flex;
         flex-direction: column;
         margin: 10px;
+        width: 280px;
     }
 
     #offer-form input {
@@ -273,7 +275,7 @@
     }
 }
 
-@media(max-width: 360px){
+@media(max-width: 460px){
     #hero{
         justify-content: center;
     }
@@ -283,7 +285,7 @@
     }
 }
 
-@media(max-width: 360px){
+@media(max-width: 400px){
    body .contract-product-block{
         width: 300px;
     }
