@@ -230,6 +230,155 @@ body {
   }
 }
 
+@media (max-width: 360px) {
+  #hero {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-main div {
+    justify-items: center;
+  }
+}
+
+@media (max-width: 360px) {
+  body .contract-product-block {
+    width: 300px;
+  }
+  .contract-images {
+    width: 280px;
+  }
+  #mark div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+  }
+  #mark-left-side, #mark-right-side {
+    width: 300px;
+    height: 480px;
+  }
+  body #mission-person {
+    width: 280px;
+  }
+  body .partner-burger-icon {
+    width: 300px;
+  }
+  .partner div {
+    padding: 0;
+  }
+  #offer-form {
+    width: 290px;
+  }
+  body .offer-text {
+    font-size: 20px;
+  }
+  body .offer-subtext {
+    font-size: 14px;
+  }
+  #offer-form input {
+    width: 280px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  #offer-verify {
+    width: 280px;
+  }
+  #offer-submit-btn {
+    width: 280px;
+  }
+  body .hero-footer {
+    width: 280px;
+  }
+  body .hero-footer {
+    width: 280px;
+    position: absolute;
+    left: 25px;
+    bottom: -150px;
+  }
+  body .hero-footer-elements {
+    height: 120px;
+  }
+}
+
+@media (max-width: 660px) {
+  body .offer-form {
+    width: 550px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .offer-subtext {
+    left: 20px;
+    position: relative;
+  }
+}
+
+@media (max-width: 550px) {
+  body .offer-form {
+    width: 450px;
+  }
+  body .offer-text {
+    left: 20px;
+    position: relative;
+  }
+}
+
+@media (max-width: 480px) {
+  body .offer-form {
+    width: 350px;
+  }
+  body .offer-text {
+    left: 20px;
+    position: relative;
+  }
+  .offer-form input {
+    width: 300px;
+  }
+  .offer-verify {
+    width: 290px;
+    position: relative;
+  }
+  body .offer-submit-btn {
+    width: 280px;
+  }
+  body .offer {
+    height: 700px;
+  }
+  .mark-sections div {
+    width: 290px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .mark-sections {
+    width: 290px;
+  }
+  .mark-left-side div {
+    justify-items: center;
+  }
+  .mark-left-side img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .container {
   width: 90%;
   padding: 0 75px;
