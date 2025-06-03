@@ -201,6 +201,100 @@ body {
   }
 }
 
+@media (max-width: 660px) {
+  body .offer-form {
+    width: 550px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .offer-subtext {
+    left: 20px;
+    position: relative;
+  }
+}
+
+@media (max-width: 550px) {
+  body .offer-form {
+    width: 450px;
+  }
+  body .offer-text {
+    left: 20px;
+    position: relative;
+  }
+}
+
+@media (max-width: 480px) {
+  body .offer-form {
+    width: 350px;
+  }
+  body .offer-text {
+    left: 20px;
+    position: relative;
+  }
+  .offer-form input {
+    width: 300px;
+  }
+  .offer-verify {
+    width: 290px;
+    position: relative;
+  }
+  body .offer-submit-btn {
+    width: 280px;
+  }
+  body .offer {
+    height: 700px;
+  }
+  .mark-sections div {
+    width: 290px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .mark-sections {
+    width: 290px;
+  }
+  .mark-left-side div {
+    justify-items: center;
+  }
+  .mark-left-side img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  body .contract-product-block {
+    width: 300px;
+  }
+  body .offer-form {
+    width: 300px;
+  }
+  body .offer-subtext {
+    width: 300px;
+    text-align: left;
+  }
+  .offer-form input {
+    width: 200px;
+  }
+}
+
 .container {
   width: 90%;
   padding: 0 75px;
