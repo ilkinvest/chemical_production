@@ -43,7 +43,6 @@
 
 @media(max-width: 760px){
     .hero-main div{
-        // margin: auto;
         justify-content: center;
         position: relative;
         margin-top: 20px;
@@ -272,4 +271,85 @@
         margin: 0;
         gap: 10px;
     }
+}
+
+@media(max-width: 360px){
+    #hero{
+        justify-content: center;
+    }
+
+    .hero-main div{
+        justify-items: center;
+    }
+}
+
+@media(max-width: 360px){
+   body .contract-product-block{
+        width: 300px;
+    }
+
+    .contract-images{
+        width: 280px;
+    }
+
+   #mark div{
+    justify-content: center;
+    justify-items: center;
+   }
+   #mark-left-side, #mark-right-side{
+    width: 300px;
+    height: 480px;
+   }
+
+   body #mission-person{
+    width: 280px;
+   }
+
+   body .partner-burger-icon{
+    width: 300px;
+   }
+   .partner div{
+    padding: 0;
+   }
+
+   #offer-form{
+    width: 290px;
+   }
+
+   body .offer-text{
+    font-size: 20px;
+   }
+
+   body .offer-subtext{
+    font-size: 14px;
+   }
+
+   #offer-form input{
+    width: 280px;
+    margin: 0;
+    margin-top: 10px;
+   }
+
+   #offer-verify{
+    width: 280px;
+   }
+
+   #offer-submit-btn{
+    width: 280px;
+   }
+
+   body .hero-footer{
+    width: 280px;
+   }
+   
+   body .hero-footer{
+    width: 280px;
+    position: absolute;
+    left: 25px;
+    bottom: -150px;
+   }
+
+   body .hero-footer-elements{
+    height: 120px;
+   }
 }
